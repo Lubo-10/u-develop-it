@@ -18,7 +18,7 @@ router.get('/candidates', (req, res) => {
         }
         res.json({
             message: 'success',
-            data: rows
+            data: rows,
         });
     });
 });
@@ -40,7 +40,7 @@ router.get('/candidate/:id', (req, res) => {
         }
         res.json({
             message: 'success',
-            data: row
+            data: row,
         });
     });
 });
@@ -86,7 +86,7 @@ router.post('/candidate', ({ body }, res) => {
         }
         res.json({
             message: 'success',
-            data: body
+            data: body,
         });
     });
 });

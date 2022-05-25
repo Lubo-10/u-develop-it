@@ -11,7 +11,7 @@ router.get('/parties', (req, res) => {
         }
         res.json({
             message: 'success',
-            data: rows
+            data: rows,
         });
     });
 });
@@ -26,7 +26,7 @@ router.get('/party/:id', (req, res) => {
         }
         res.json({
             message: 'success',
-            data: row
+            data: row,
         });
     });
 });
